@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 12
+Created-By: 12.0.2 (Oracle Corporation)
+Bnd-LastModified: 1615990330198
+Bundle-Category: component
+Bundle-Description: "Core bundle for artifact"
+Bundle-ManifestVersion: 2
+Bundle-Name: artifact - Core
+Bundle-SymbolicName: p2.core
+Bundle-Version: 1.0.0
+Export-Package: p2_pack.core.filters;version="1.0";uses:="javax.servlet"
+ ,p2_pack.core.listeners;version="1.0";uses:="org.osgi.service.event",p2
+ _pack.core.models;version="1.0";uses:="javax.annotation,org.apache.slin
+ g.api.resource,org.apache.sling.models.annotations,org.apache.sling.mod
+ els.annotations.injectorspecific",p2_pack.core.schedulers;version="1.0"
+ ,p2_pack.core.servlets;version="1.0";uses:="javax.servlet,org.apache.sl
+ ing.api,org.apache.sling.api.servlets"
+Import-Package: com.day.cq.wcm.api;version="[1.27,2)",javax.annotation;v
+ ersion="[1.3,2)",javax.servlet;version="[3.1,4)",org.apache.sling.api;v
+ ersion="[2.3,3)",org.apache.sling.api.request;version="[2.4,3)",org.apa
+ che.sling.api.resource;version="[2.11,3)",org.apache.sling.api.servlets
+ ;version="[2.2,3)",org.apache.sling.models.annotations;version="[1.5,2)
+ ",org.apache.sling.models.annotations.injectorspecific;version="[1.1,2)
+ ",org.apache.sling.settings;version="[1.3,2)",org.osgi.service.event;ve
+ rsion="[1.3,2)",org.slf4j;version="[1.7,2)",p2_pack.core.filters;versio
+ n="[1.0,2)",p2_pack.core.listeners;version="[1.0,2)",p2_pack.core.sched
+ ulers;version="[1.0,2)",p2_pack.core.servlets;version="[1.0,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.Run
+ nable",osgi.service;objectClass:List<String>="javax.servlet.Filter",osg
+ i.service;objectClass:List<String>="javax.servlet.Servlet",osgi.service
+ ;objectClass:List<String>="org.osgi.service.event.EventHandler"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
+ nt)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=Ja
+ vaSE)(version=1.8))"
+Service-Component: OSGI-INF/p2_pack.core.filters.LoggingFilter.xml,OSGI-
+ INF/p2_pack.core.listeners.SimpleResourceListener.xml,OSGI-INF/p2_pack.
+ core.schedulers.SimpleScheduledTask.xml,OSGI-INF/p2_pack.core.servlets.
+ SimpleServlet.xml
+Sling-Model-Packages: p2_pack.core.models
+Tool: Bnd-4.2.0.201903051501
+

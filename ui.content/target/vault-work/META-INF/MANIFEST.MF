@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: Abhishek
+Build-Jdk: 12.0.2
+Implementation-Title: artifact - UI content
+Implementation-Version: 1.0
+Implementation-Vendor-Id: p2
+Content-Package-Roots: /conf/conf,/content/content,/content/dam/content
+Content-Package-Description: UI content package for artifact
+Content-Package-Id: p2_pack:p2.ui.content:1.0
+Content-Package-Type: content
+

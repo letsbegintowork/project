@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: Abhishek
+Build-Jdk: 12.0.2
+Implementation-Title: artifact - UI apps
+Implementation-Version: 1.0
+Implementation-Vendor-Id: p2
+Content-Package-Roots: /apps/apps,/etc/packages/adobe/cq60/core.wcm.comp
+ onents.all-2.5.0.zip,/etc/packages/adobe/cq60/core.wcm.components.examp
+ les-2.5.0.zip
+Content-Package-Description: UI apps package for artifact
+Content-Package-Id: p2_pack:p2.ui.apps:1.0
+Content-Package-Type: mixed
+

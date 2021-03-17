@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>artifact - UI content</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="acHandling">merge_preserve</entry>
+<entry key="created">2021-03-17T19:42:12.578+05:30</entry>
+<entry key="groupId">p2</entry>
+<entry key="description">UI content package for artifact</entry>
+<entry key="version">1.0</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="createdBy">Abhishek</entry>
+<entry key="name">p2.ui.content</entry>
+<entry key="artifactId">p2.ui.content</entry>
+<entry key="group">p2_pack</entry>
+</properties>
